@@ -68,3 +68,11 @@ function endGame() {
   document.getElementById("end-screen").style.display = "block";
   document.getElementById("final-score").innerText = score;
 }
+function startGame() {
+  document.getElementById("start-screen").style.display = "none";
+  document.getElementById("game").style.display = "block";
+
+  document.getElementById("bg-music").play();
+
+  loadQuestion();
+}
