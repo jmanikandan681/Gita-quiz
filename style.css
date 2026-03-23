@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #00c853;
+  border: none;
+  color: white;
+}
+
+#feedback {
+  font-size: 20px;
+  font-weight: bold;
+}
