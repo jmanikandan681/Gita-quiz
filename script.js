@@ -1,16 +1,15 @@
 const questions = [
   {
     q: "Who spoke Bhagavad Gita?",
-    options: ["Krishna", "Arjuna", "Vyasa"],
+    options: ["Krishna", "Arjuna", "Vyasa", "Brahma"],
     answer: "Krishna"
   },
   {
-    q: "Who was Arjuna's charioteer?",
-    options: ["Krishna", "Bheema"],
-    answer: "Krishna"
+    q: "How many chapters are in Bhagavad Gita?",
+    options: ["16", "18", "20", "12"],
+    answer: "18"
   }
 ];
-
 let current = 0;
 let score = 0;
 
